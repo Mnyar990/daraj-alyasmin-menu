@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const slideDiv = document.createElement('div');
     slideDiv.classList.add('slide');
     const img = document.createElement('img');
-    img.src = `images/${file}`;
+    img.src = `${file}`;
     img.alt = `صفحة المنيو ${file}`;
     slideDiv.appendChild(img);
     slideshowContainer.appendChild(slideDiv);
